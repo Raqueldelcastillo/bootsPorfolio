@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Porfolio</title>
     <link rel="stylesheet" href="style.css" />
-    <link
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <!-- <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
-    />
+    /> -->
   </head>
   <body>
-    <nav id="dekstop-nav">
+    <nav id="deskstop-nav">
       <div class="logo">Raquel del Castillo</div>
       <div>
         <ul class="nav-links">
@@ -24,5 +25,24 @@
         </ul>
       </div>
     </nav>
+
+    <nav id="hamburger-nav">
+      <div class="logo">Raquel del Castillo</div>
+
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu ()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </nav>
+    <script src="script.js"></script>
   </body>
 </html>
