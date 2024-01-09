@@ -124,6 +124,7 @@ section {
   height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
+  min-height: fit-content;
 }
 .section-container {
   display: flex;
@@ -134,7 +135,7 @@ section {
   gap: 5rem;
   height: 80vh;
 }
-/* img {
+img {
   border-radius: 30px;
 }
 .section__pic-container {
@@ -143,6 +144,7 @@ section {
   width: 400px;
   margin: auto 0;
 }
+
 .section__text {
   align-self: center;
   text-align: center;
@@ -153,7 +155,7 @@ section {
 .section__text__p1 {
   text-align: center;
 }
-.section__text__p2 {
+.section__text__p1 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
 }
@@ -161,4 +163,36 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
-} */
+}
+#socials-containers {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+.icon {
+  cursor: pointer;
+  height: 2rem;
+}
+.bnt-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.btn {
+  font-weight: 600;
+  transition: all 300m ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+}
+.btn-color-1,
+.btn-color-2 {
+  border: rgb(2, 2, 41) 0.1rem solid;
+}
+.btn-color-1:hover,
+.btn-color-2:hover {
+  cursor: pointer;
+  background: rgb(163, 161, 161);
+  color: aliceblue;
+}
