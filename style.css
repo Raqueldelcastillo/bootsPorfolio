@@ -12,7 +12,8 @@ html {
 }
 
 p {
-  color: rgb(88, 100, 19);
+  color: rgb(89, 178, 230);
+  /* color: rgb(88, 100, 19); */
 }
 
 a,
@@ -155,7 +156,7 @@ img {
 .section__text__p1 {
   text-align: center;
 }
-.section__text__p1 {
+.section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
 }
@@ -193,6 +194,7 @@ img {
 .btn-color-1:hover,
 .btn-color-2:hover {
   cursor: pointer;
-  background: rgb(163, 161, 161);
+  background: rgb(89, 178, 230);
+  /* background: rgb(113, 124, 8); */
   color: aliceblue;
 }
